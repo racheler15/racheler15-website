@@ -5,12 +5,12 @@ import Home from "./components/Home";
 
 function App() {
   return (
-    <>
-      <Router>
-        <NavBar />
-        <Home/>
-      </Router>
-    </>
+    <Router>
+      <NavBar /> 
+      <Routes>
+        <Route path="/*" element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
 
