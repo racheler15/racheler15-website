@@ -98,7 +98,7 @@
     padding-right: 5%;
     flex-direction: column; /* Stack image and text vertically */
     align-items: center;
-    padding-top: calc(80+ 3rem); /* Adjust padding for small screens */
+    padding-top: calc(80px + 3rem); /* Adjust padding for small screens */
     gap: 1rem; /* Adjust spacing between image and text */
   }
 
