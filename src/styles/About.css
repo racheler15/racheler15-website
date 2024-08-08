@@ -1,0 +1,120 @@
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #0b192f;
+  padding-top: 64px;
+
+
+}
+
+/*** IMAGE (LEFT) ***/
+.image-container {
+  flex: 0.5;
+  overflow: hidden;
+}
+
+.profile-pic {
+  object-fit: cover;
+  width: 80%;
+  height: 100%;
+  display: block; /*** Image doesn't take up more space than it needs to ***/
+
+}
+
+/*** TEXT (RIGHT) ***/
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+}
+.intro-container {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1rem;
+}
+.period{
+  color: #e2b3ff;
+  font-size: bold;
+  font-weight: 700;
+}
+.text-container {
+  flex: 0.5;
+  display: flex;
+  flex-direction: column;
+  margin-right: 15%;
+}
+
+.text {
+  overflow: hidden;
+  color: #ccd6f6;
+  margin-top: 1rem;
+}
+
+/* BUTTON */
+.button {
+  padding-top: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button-contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.8rem;
+  color: #e2b3ff;
+  font-size: 1.5rem;
+  font-weight: 500;
+  padding: 10px 20px;
+  border: 1px solid #e2b3ff;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button-contact:hover {
+  background-color: #e2b3ff;
+  color: #0b192f;
+}
+
+.button-contact:hover .email-icon {
+  color: inherit;
+}
+
+.email-icon {
+  background-color: transparent;
+  color: inherit;
+}
+
+/* Media Query for small screens */
+@media (max-width: 1000px) {
+  .about-container {
+    padding-top: calc(64px + 2rem);
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center;
+    padding-top: calc(80+ 3rem); /* Adjust padding for small screens */
+    gap: 1rem; /* Adjust spacing between image and text */
+  }
+
+  .image-container {
+    display: none; /* Hide image on small screens */
+  }
+
+  .text-container {
+    margin-top: 5%;
+    margin-right: 0; /* Remove right margin */
+    text-align: center; 
+  }
+  .text{
+    margin-top: 2rem;
+  }
+  .button{
+    padding-bottom: 3rem;
+  }
+}

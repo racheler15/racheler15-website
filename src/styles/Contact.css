@@ -1,0 +1,19 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+  margin-right: 15%;
+  color: #405863;
+
+}
+.contact-info{
+  color:#0b192f;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}

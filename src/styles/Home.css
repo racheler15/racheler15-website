@@ -1,0 +1,12 @@
+.footer {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #28292a;
+}
+html
+{
+  scroll-padding-top: 8vw; /* height of sticky header */
+}

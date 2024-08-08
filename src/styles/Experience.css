@@ -1,0 +1,162 @@
+.experience-container {
+  margin-top: -2rem;
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  margin-left: 15%;
+  margin-right: 15%;
+  color: white;
+  margin-bottom: 3rem;
+}
+
+.header-container {
+  color: #28292a;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 1rem;
+  align-items: center;
+}
+
+.underline {
+  flex: 0.5;
+  margin-top: 0.5rem;
+  height: 1px;
+  background-color: #5e626f;
+  margin-left: 1rem;
+}
+
+.experience {
+  border: 1px solid #8f8eb7;
+  border-radius: 1rem;
+  /* padding: 1rem; */
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 2rem;
+  background-color: #afaee0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; /* Align items to the top */
+  gap: 2rem;
+  transition: transform 0.6s ease; /* Add transition for smooth effect */
+}
+
+.experience:hover {
+  background-color: #b3b3e1;
+  cursor: pointer;
+  transform: scale(1.05); /* Increase size on hover */
+}
+.expimg-container {
+  flex: 0 0 auto; /* Ensure the image container maintains its size */
+}
+
+.experience-pic {
+  max-width: 100px; /* Set a max width for the image */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 0.5rem;
+  border: 1px solid #28292a;
+}
+
+.experience-description {
+  flex: 1; /* Allow the description to take the remaining space */
+  display: flex;
+  flex-direction: column;
+}
+.experience-container {
+  display: flex;
+  flex-direction: column;
+}
+.experience-separator {
+  /* flex: 0.8; */
+  margin-top: 0.5rem;
+  /* height: 1px; /* Thickness of the underline */
+  background-color: #28292a; /* Color of the underline */
+  margin-bottom: 1.5rem;
+}
+
+.place {
+  margin-top: 1rem;
+  color: white;
+  font-weight: 560;
+  font-size: 1.5rem;
+  padding-bottom: 8px;
+}
+
+a:hover .place {
+  color: #e2b3ff;
+  transition: color 0.2s;
+}
+
+.role {
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #405863;
+}
+
+.role-with-padding {
+  padding-top: 1rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: #405863;
+}
+
+.description {
+  padding-top: 4px;
+  margin-bottom: 0.5rem;
+}
+
+/* SKILLS */
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding-top: 0.5rem;
+  flex-wrap: wrap;
+  overflow: auto;
+  margin-bottom: 1.5rem;
+
+}
+
+.skill {  
+  padding: 10px 20px;
+  /* border: 1px solid white; */
+  border-radius: 20px;
+  color: white;
+  background-color: #8e65a8;
+  font-weight: 500;
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  white-space: nowrap; /* Prevent text from wrapping within skill items */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .experience-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3rem;
+
+
+  }
+
+  .experience {
+    flex-direction: column;
+    align-items: center;
+  }
+  .experience-separator {
+    margin-bottom: 2rem;
+  }
+
+  .skills-container {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .skill{
+    margin-bottom: 0.5rem;
+  }
+}
