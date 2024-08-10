@@ -1,18 +1,9 @@
 import { useState } from "react";
-import {
-  ChevronRight,
-  ChevronLeft,
-  CircleDot,
-  Circle,
-} from "lucide-react";
+import { ChevronRight, ChevronLeft, CircleDot, Circle } from "lucide-react";
 import "../styles/ImageSlider.css";
 
-type Image = {
-  name: string;
-  link: string;
-};
 type ImageSliderProps = {
-  images: Image[];
+  images: string[];
 };
 // function expects a single argument with a property imageUrls, which must conform to the ImageSliderProps type
 export function ImageSlider({ images }: ImageSliderProps) {
@@ -49,24 +40,13 @@ export function ImageSlider({ images }: ImageSliderProps) {
           overflow: "hidden",
         }}
       >
-        {images.map((image, index) => (
-          <a
-            key={index}
-            href={image.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              width: "100%",
-              height: "100%",
-              display: index === imageIndex ? "block" : "none", 
-            }}
-          >
-            <img
-              src={image.name} 
-              alt={`Slide ${index + 1}`} 
-              className="slider-images"
-            />
-          </a>
+        {images.map(url => (
+          <img
+            key={url}
+            src={url}
+            className="slider-images"
+            style={{ translate: `${-100 * imageIndex}%` }}
+          />
         ))}
       </div>
 
@@ -101,11 +81,7 @@ export function ImageSlider({ images }: ImageSliderProps) {
             className="image-slider-dot-button"
             onClick={() => setImageIndex(index)}
           >
-            {index == imageIndex ? (
-              <CircleDot />
-            ) : (
-              <Circle />
-            )}
+            {index == imageIndex ? <CircleDot /> : <Circle />}
           </button>
         ))}
       </div>

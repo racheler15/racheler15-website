@@ -2,24 +2,27 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  background-color: #0b192f;
-  padding-top: 64px;
-
-
+  justify-content: space-between;
+  background-color: white;
+  padding-top: 80px;
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 7rem;
+  position: relative;
+  margin-bottom: 3rem;
 }
 
 /*** IMAGE (LEFT) ***/
 .image-container {
-  flex: 0.5;
-  overflow: hidden;
+  display: flex;
+  margin-right: 2rem;
 }
 
 .profile-pic {
-  object-fit: cover;
-  width: 80%;
-  height: 100%;
+  width: 300px;
+  height: auto;
   display: block; /*** Image doesn't take up more space than it needs to ***/
-
+  border-radius: 10px;
 }
 
 /*** TEXT (RIGHT) ***/
@@ -29,34 +32,33 @@
   flex-direction: column;
   align-items: center;
   font-size: 40px;
-  color: white;
+  color: #28292a;
 }
 .intro-container {
   display: flex;
   flex-direction: row;
   padding-bottom: 1rem;
 }
-.period{
-  color: #e2b3ff;
+.period {
+  color: #afaee0;
   font-size: bold;
   font-weight: 700;
 }
 .text-container {
-  flex: 0.5;
+  padding-left: 2rem;
   display: flex;
   flex-direction: column;
-  margin-right: 15%;
 }
 
 .text {
   overflow: hidden;
-  color: #ccd6f6;
-  margin-top: 1rem;
+  color: #28292a;
+  margin-top: 3rem;
 }
 
 /* BUTTON */
 .button {
-  padding-top: 2.5rem;
+  padding-top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,17 +69,17 @@
   flex-direction: row;
   align-items: center;
   gap: 0.8rem;
-  color: #e2b3ff;
+  color: #afaee0;
   font-size: 1.5rem;
   font-weight: 500;
   padding: 10px 20px;
-  border: 1px solid #e2b3ff;
+  border: 1px solid #afaee0;
   border-radius: 5px;
   transition: background-color 0.3s, color 0.3s;
 }
 
 .button-contact:hover {
-  background-color: #e2b3ff;
+  background-color: #afaee0;
   color: #0b192f;
 }
 
@@ -93,9 +95,9 @@
 /* Media Query for small screens */
 @media (max-width: 1000px) {
   .about-container {
-    padding-top: calc(64px + 2rem);
-    padding-left: 5%;
-    padding-right: 5%;
+    margin-top: 5rem;
+    margin-left: 5%;
+    margin-right: 5%;
     flex-direction: column; /* Stack image and text vertically */
     align-items: center;
     padding-top: calc(80px + 3rem); /* Adjust padding for small screens */
@@ -107,14 +109,15 @@
   }
 
   .text-container {
+    padding-left: 0px;
     margin-top: 5%;
     margin-right: 0; /* Remove right margin */
-    text-align: center; 
+    text-align: center;
   }
-  .text{
+  .text {
     margin-top: 2rem;
   }
-  .button{
+  .button {
     padding-bottom: 3rem;
   }
 }

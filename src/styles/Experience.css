@@ -8,6 +8,8 @@
   margin-right: 15%;
   color: white;
   margin-bottom: 3rem;
+  /* cursor: url('/circle-cursor.png'), auto;; */
+
 }
 
 .header-container {
@@ -28,14 +30,13 @@
 }
 
 .experience {
-  border: 1px solid #8f8eb7;
+  /* border: 1px solid #8f8eb7; */
   border-radius: 1rem;
-  /* padding: 1rem; */
-  padding-top: 1rem;
+  padding-top: 1.5rem;
   padding-bottom: 1rem;
-  padding-left: 1rem;
+  padding-left: 1.5rem;
   padding-right: 2rem;
-  background-color: #afaee0;
+  background-color: #F5F7FB;  
   display: flex;
   flex-direction: row;
   align-items: flex-start; /* Align items to the top */
@@ -43,11 +44,9 @@
   transition: transform 0.6s ease; /* Add transition for smooth effect */
 }
 
-.experience:hover {
-  background-color: #b3b3e1;
-  cursor: pointer;
-  transform: scale(1.05); /* Increase size on hover */
-}
+/* .experience:hover {
+  transform: scale(1.02); 
+} */
 .expimg-container {
   flex: 0 0 auto; /* Ensure the image container maintains its size */
 }
@@ -75,19 +74,17 @@
   background-color: #28292a; /* Color of the underline */
   margin-bottom: 1.5rem;
 }
-
+.date{
+  color: #405863;
+}
 .place {
   margin-top: 1rem;
-  color: white;
+  color: #28292a;
   font-weight: 560;
   font-size: 1.5rem;
   padding-bottom: 8px;
 }
 
-a:hover .place {
-  color: #e2b3ff;
-  transition: color 0.2s;
-}
 
 .role {
   font-weight: 500;
@@ -103,6 +100,7 @@ a:hover .place {
 }
 
 .description {
+  color: #405863;
   padding-top: 4px;
   margin-bottom: 0.5rem;
 }
@@ -121,10 +119,10 @@ a:hover .place {
 
 .skill {  
   padding: 10px 20px;
-  /* border: 1px solid white; */
   border-radius: 20px;
-  color: white;
-  background-color: #8e65a8;
+  color: 28292a;
+  background-color: #6982b4;
+  /* background-color: #afaee0; */
   font-weight: 500;
   font-size: 0.8rem;
   display: flex;

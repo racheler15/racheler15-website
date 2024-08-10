@@ -11,7 +11,7 @@ function About() {
     deleteSpeed: 80,
   });
   return (
-    <div id = "home" className="about-container">
+    <div id="home" className="about-container">
       <div className="image-container">
         <img src={profile_pic} alt="profile pic" className="profile-pic" />
       </div>
@@ -20,7 +20,7 @@ function About() {
           <div className="intro-container">
             Hi, I'm Rachel<div className="period">.</div>
           </div>
-          <span style={{ fontWeight: "bold", color: "#E2B3FF" }}>
+          <span style={{ fontWeight: "bold", color: "#afaee0", display:"flex"}}>
             {description}
             <Cursor />
           </span>

@@ -8,9 +8,7 @@
   flex-shrink: 0;
   flex-grow: 0;
 }
-.slider-images:hover{
-    filter: brightness(0.95);
-}
+
 .slider-button {
   all: unset;
   display: block;
@@ -31,15 +29,15 @@
 
 }
 
-.slider-button:hover > *,
+/* .slider-button:hover > *,
 .slider-button:focus-visible > * {
   animation: squish 200ms ease-in-out;
   fill:#e2b3ff;
-}
+} */
 
 .slider-button > * {
   stroke: white;
-  fill: black;
+  /* fill: black; */
   width: 4rem;
   height: 5rem;
 }

@@ -1,21 +1,31 @@
 // import React from "react";
 import "../styles/Academics.css";
+import opener from "/summary.svg";
+import breakdown from "/breakdown.svg";
+import graduate from "/graduate.svg";
+import upper from "/upper.svg";
+import lower from "/lower.svg";
+import { ImageSlider } from "./ImageSlider";
 
+const IMAGES = [opener, breakdown, graduate, upper, lower];
 function Academics() {
-
   return (
-    <div id = "academics" className="academics-container">
+    <div id="academics" className="academics-container">
       <div className="header">
         <div className="header-container">
           Academics<div className="period">.</div>
           <div className="underline"></div>
         </div>
       </div>
-      <div>
-        Below is a summary of the technical classes I have taken at UC Berkeley.
+      <div className="slider-container">
+        <ImageSlider images={IMAGES} />
       </div>
 
       <div className="courses-container">
+        <div style={{ paddingBottom: "2rem" }}>
+          Below is a summary of the technical classes I have taken at UC
+          Berkeley.
+        </div>
         <div className="level">GRADUATE LEVEL</div>
         <div className="classes-container">
           <ul className="classes">

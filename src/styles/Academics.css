@@ -17,6 +17,11 @@
 }
 .courses-container {
   padding-top: 2rem;
+  display: none;
+  flex-direction: column;
+}
+.slider-container{
+  display:flex;
 }
 .level {
   /* color: white; */
@@ -33,5 +38,11 @@
   .academics-container {
     margin-left: 5%;
     margin-right: 5%;
+  }
+  .courses-container{
+    display: flex;
+  }
+  .slider-container{
+    display:none;
   }
 }
