@@ -3,7 +3,6 @@ import calq from "/calq.png";
 import mind from "/mind.png";
 import uxab from "/uxab.png";
 import subfield_survey from "/Rachel Lin Subfield Survey.pdf";
-import { ImageSlider } from "./ImageSlider";
 
 // https://www.youtube.com/watch?v=Kx8XlKRBZx8
 export default function Projects() {
