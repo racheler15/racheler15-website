@@ -20,7 +20,7 @@ function Experience() {
           </div>
           <div className="multiple-experience">
             <div className="experience-description">
-              <div className="place">UC Berkeley EPIC Data Lab</div>
+              <div className="place">UC Berkeley RISE Lab</div>
               <div className="role">HCI Research Apprentice</div>
               <div className="date">May 2024 - Present</div>
               <div className="description">
