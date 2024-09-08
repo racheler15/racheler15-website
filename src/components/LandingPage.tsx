@@ -51,9 +51,9 @@ const LandingPage = () => {
           </div>
           <div
             className="item"
-            style={{ "--position": 6 } as React.CSSProperties}
+            style={{ "--position": 6} as React.CSSProperties}
           >
-            <img src="/landing/image6.jpg" alt="image"></img>
+            <img src="/landing/image6.JPG" alt="image"></img>
           </div>
           <div
             className="item"

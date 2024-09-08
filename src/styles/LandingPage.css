@@ -98,4 +98,23 @@
     top: 16%;
     padding-bottom: 3rem;
   }
+  .banner .slider {
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    top: 21%;
+    left: calc(50% - 150px);
+    transform-style: preserve-3d;
+    transform: perspective(2000px);
+    animation: autoRun 35s linear infinite;
+  }
+  @keyframes autoRun {
+    from {
+      transform: perspective(2000px) rotateX(-4deg) rotateY(0deg);
+    }
+    to {
+      transform: perspective(2000px) rotateX(-4deg) rotateY(360deg);
+    }
+  }
+
 }

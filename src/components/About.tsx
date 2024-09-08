@@ -15,7 +15,7 @@ function About() {
     <motion.div
       variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}
       initial="hidden"
-      transition={{duration: 2, ease: "easeInOut"}}
+      transition={{ duration: 2, ease: "easeInOut" }}
       whileInView="visible"
       viewport={{ once: true }}
       id="home"
@@ -29,7 +29,8 @@ function About() {
           <div className="intro-container">
             Hi, I'm Rachel<div className="period">.</div>
           </div>
-          <div className="cursor-text"
+          <div
+            className="cursor-text"
             style={{ fontWeight: "bold", color: "#afaee0", display: "flex" }}
           >
             {description}
@@ -37,7 +38,7 @@ function About() {
           </div>
         </div>
         <div className="text">
-          I am currently a masters student at UC Berkeley majoring in EECS and
+          I am currently an EECS Master's student at UC Berkeley and
           concurrently pursuing the Berkeley Certificate in Design Innovation. I
           previously graduated from UC Berkeley with a B.A. in Computer Science
           and a minor in Data Science. My current academic interests involves
