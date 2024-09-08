@@ -5,11 +5,13 @@ import Academics from "./Academics";
 import Projects from "./Projects";
 import "../styles/Home.css";
 import Contact from "./Contact";
+import LandingPage from "./LandingPage"
 
 function Home() {
   return (
     <>
       <NavBar />
+      <LandingPage/>
       <About />
       <Experience />
       <Projects />

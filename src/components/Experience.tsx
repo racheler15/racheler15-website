@@ -6,7 +6,7 @@ import omni from "/omnivision_logo.jpeg";
 
 function Experience() {
   return (
-    <div id = "experience" className="experience-container">
+    <div id="experience" className="experience-container">
       <div className="header">
         <div className="header-container">
           Experience<div className="period">.</div>
@@ -21,7 +21,7 @@ function Experience() {
           <div className="multiple-experience">
             <div className="experience-description">
               <div className="place">UC Berkeley RISE Lab</div>
-              <div className="role">HCI Research Apprentice</div>
+              <div className="role">HCI Researcher</div>
               <div className="date">May 2024 - Present</div>
               <div className="description">
                 Incoporating LLM expertise into an iterative dataset search
@@ -30,14 +30,14 @@ function Experience() {
                 Madelon Hulsebos.
               </div>
               <div className="skills-container">
-            <div className="skill">React</div>
-            <div className="skill">Large Language Models</div>
-            <div className="skill">SQL</div>
-            <div className="skill">JSON</div>
-          </div>
+                <div className="skill">React</div>
+                <div className="skill">Large Language Models</div>
+                <div className="skill">SQL</div>
+                <div className="skill">JSON</div>
+              </div>
             </div>
             <div className="experience-description">
-              <div className="role-with-padding">ML Research Apprentice</div>
+              <div className="role-with-padding">ML Researcher</div>
               <div className="date">Sept 2023 - May 2024</div>
               <div className="description">
                 Assessed LLMs' ability to implicitly conduct feature selection
@@ -47,15 +47,14 @@ function Experience() {
               </div>
             </div>
             <div className="skills-container">
-            <div className="skill">Python</div>
-            <div className="skill">Large Language Models</div>
-            <div className="skill">JSON</div>
-            <div className="skill">Microsoft Azure</div>
-            <div className="skill">Scikit learn</div>
-            <div className="skill">Modal</div>
-            <div className="skill">Hugging Face</div>
-
-          </div>
+              <div className="skill">Python</div>
+              <div className="skill">Large Language Models</div>
+              <div className="skill">JSON</div>
+              <div className="skill">Microsoft Azure</div>
+              <div className="skill">Scikit learn</div>
+              <div className="skill">Modal</div>
+              <div className="skill">Hugging Face</div>
+            </div>
           </div>
         </div>
         <div className="experience-separator"></div>
@@ -66,18 +65,18 @@ function Experience() {
           </div>
           <div className="experience-description">
             <div className="place">UC Berkeley Cognition and Action Lab</div>
-            <div className="role">Computational Research Apprentice</div>
+            <div className="role">Computational Neuroscience Researcher</div>
             <div className="date">May 2023 - Jan 2024</div>
             <div className="description">
               Programmed a dynamic predator-prey reinforcement model to evaluate
-              cerebellar degeneration challenges. Advised by Professor
-              Richard B. Ivry & Sabrina Abram.
+              cerebellar degeneration challenges. Advised by Professor Richard
+              B. Ivry & Sabrina Abram.
             </div>
             <div className="skills-container">
-            <div className="skill">Python</div>
-            <div className="skill">Matplotlib</div>
-            <div className="skill">NumPy</div>
-          </div>
+              <div className="skill">Python</div>
+              <div className="skill">Matplotlib</div>
+              <div className="skill">NumPy</div>
+            </div>
           </div>
         </div>
 
@@ -97,12 +96,12 @@ function Experience() {
               automobile LED light sources.
             </div>
             <div className="skills-container">
-          <div className="skill">Python</div>
-          <div className="skill">Matplotlib</div>
-          <div className="skill">Pytorch</div>
-          <div className="skill">OpenCV</div>
-          <div className="skill">Blender</div>
-        </div>
+              <div className="skill">Python</div>
+              <div className="skill">Matplotlib</div>
+              <div className="skill">Pytorch</div>
+              <div className="skill">OpenCV</div>
+              <div className="skill">Blender</div>
+            </div>
           </div>
         </div>
         <div className="experience-separator"></div>

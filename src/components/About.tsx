@@ -2,6 +2,7 @@ import "../styles/About.css";
 import profile_pic from "/profile_pic.jpg";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaEnvelope } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 function About() {
   const [description] = useTypewriter({
@@ -11,7 +12,15 @@ function About() {
     deleteSpeed: 80,
   });
   return (
-    <div id="home" className="about-container">
+    <motion.div
+      variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}
+      initial="hidden"
+      transition={{duration: 2, ease: "easeInOut"}}
+      whileInView="visible"
+      viewport={{ once: true }}
+      id="home"
+      className="about-container"
+    >
       <div className="image-container">
         <img src={profile_pic} alt="profile pic" className="profile-pic" />
       </div>
@@ -20,7 +29,9 @@ function About() {
           <div className="intro-container">
             Hi, I'm Rachel<div className="period">.</div>
           </div>
-          <span style={{ fontWeight: "bold", color: "#afaee0", display:"flex"}}>
+          <span
+            style={{ fontWeight: "bold", color: "#afaee0", display: "flex" }}
+          >
             {description}
             <Cursor />
           </span>
@@ -41,7 +52,7 @@ function About() {
           </a>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

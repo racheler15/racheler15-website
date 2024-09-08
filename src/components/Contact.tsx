@@ -40,9 +40,12 @@ function Contact() {
         </a>
         .
       </div>
+      <span style = {{marginTop: "3rem",fontWeight:"bold"}}>This website is also a portfolio item I built using TypeScript & React. Thanks for taking the time to check it out!</span>
       <div className="footer">
         <div className="sentence">Copyright © Rachel Lin 2024</div>
       </div>
+
+
     </div>
   );
 }

@@ -1,6 +1,5 @@
 .experience-container {
   margin-top: -2rem;
-  padding-top: 5rem;
   display: flex;
   flex-direction: column;
   /* align-items: center; */
@@ -30,7 +29,7 @@
 }
 
 .experience {
-  /* border: 1px solid #8f8eb7; */
+  
   border-radius: 1rem;
   padding-top: 1.5rem;
   padding-bottom: 1rem;

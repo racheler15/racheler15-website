@@ -2,6 +2,7 @@ import "../styles/Projects.css";
 import calq from "/calq.png";
 import mind from "/mind.png";
 import uxab from "/uxab.png";
+import eximlabs from "/eximlabs.png";
 import subfield_survey from "/Rachel Lin Subfield Survey.pdf";
 
 // https://www.youtube.com/watch?v=Kx8XlKRBZx8
@@ -22,7 +23,7 @@ export default function Projects() {
           Paper: A Survey on The State of the Art in Coreference Resolution
         </a>
       </div>
-      <div style={{ paddingBottom: "3rem", fontSize:"20px"}}>
+      <div style={{ paddingBottom: "5rem", fontSize: "20px" }}>
         Here are some highlights from my design portfolio:
       </div>
       <a href="https://www.themindcoffee.com/" target="_blank">
@@ -35,6 +36,22 @@ export default function Projects() {
             <div className="proj-text">
               We were hired by one of Berkeley's most popular cafés to redesign
               their website and enhance the user experience.{" "}
+            </div>
+          </div>
+        </div>
+      </a>
+      <a
+        href="https://drive.google.com/file/d/18zmYQJpmJ2FxRkzz6nng1VqC_3af3lm_/view?usp=sharing"
+        target="_blank"
+      >
+        <div className="proj-container">
+          <div className="proj-img-container">
+            <img src={eximlabs} alt="eximlabs" className="proj-pic" />
+          </div>
+          <div className="proj-description">
+            <div className="proj-title">eximlabs</div>
+            <div className="proj-text">
+              Co-designed high fidelity mockups of eximlabs' broker & company interface for fundraising efforts.
             </div>
           </div>
         </div>
@@ -67,7 +84,7 @@ export default function Projects() {
               guidance to everyone who becomes a part of our community. My
               responsibilities included maintaining professional relations with
               external organizations and overseeing the project team's work as a
-              project manager
+              project manager.
             </div>
           </div>
         </div>
