@@ -29,12 +29,12 @@ function About() {
           <div className="intro-container">
             Hi, I'm Rachel<div className="period">.</div>
           </div>
-          <span
+          <div className="cursor-text"
             style={{ fontWeight: "bold", color: "#afaee0", display: "flex" }}
           >
             {description}
             <Cursor />
-          </span>
+          </div>
         </div>
         <div className="text">
           I am currently a masters student at UC Berkeley majoring in EECS and

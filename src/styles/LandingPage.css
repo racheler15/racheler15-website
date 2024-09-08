@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 @import url("https://fonts.cdnfonts.com/css/ica-rubrik-black");
 
 .banner {
@@ -82,7 +81,7 @@
   color: transparent;
 }
 
-.banner .content .model {
+/* .banner .content .model {
   background-image: url(/landing/totoro.png);
   width: 100%;
   height: 40vh;
@@ -92,10 +91,11 @@
   background-repeat: no-repeat;
   background-position: top center;
   z-index: 0;
+} */
+
+@media (max-width: 768px) {
+  .banner .slider {
+    top: 16%;
+    padding-bottom: 3rem;
+  }
 }
-=======
-.landing-page-container{
-    margin-left: 15%;
-    margin-right: 15%;
-}
->>>>>>> 7527642df5cb69ca016ddcbec17e4d3dc832f108
