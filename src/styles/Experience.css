@@ -1,5 +1,10 @@
 .experience-container {
+<<<<<<< HEAD
   margin-top: -2rem;
+=======
+  padding-top: 5rem;
+  margin-top: -3rem;
+>>>>>>> 7527642df5cb69ca016ddcbec17e4d3dc832f108
   display: flex;
   flex-direction: column;
   /* align-items: center; */

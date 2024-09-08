@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url("https://fonts.cdnfonts.com/css/ica-rubrik-black");
 
 .banner {
@@ -92,3 +93,9 @@
   background-position: top center;
   z-index: 0;
 }
+=======
+.landing-page-container{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+>>>>>>> 7527642df5cb69ca016ddcbec17e4d3dc832f108
