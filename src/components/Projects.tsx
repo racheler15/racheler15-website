@@ -23,11 +23,7 @@ export default function Projects() {
           Paper: A Survey on The State of the Art in Coreference Resolution
         </a>
       </div>
-<<<<<<< HEAD
       <div style={{ paddingBottom: "5rem", fontSize: "20px" }}>
-=======
-      <div style={{ paddingBottom: "5rem", fontSize:"20px"}}>
->>>>>>> 7527642df5cb69ca016ddcbec17e4d3dc832f108
         Here are some highlights from my design portfolio:
       </div>
       <a href="https://www.themindcoffee.com/" target="_blank">
@@ -55,7 +51,8 @@ export default function Projects() {
           <div className="proj-description">
             <div className="proj-title">eximlabs</div>
             <div className="proj-text">
-              Co-designed high fidelity mockups of eximlabs' broker & company interface for fundraising efforts.
+              Co-designed high fidelity mockups of eximlabs' broker & company
+              interface for fundraising efforts.
             </div>
           </div>
         </div>
