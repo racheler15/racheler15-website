@@ -19,7 +19,7 @@ export default function Projects() {
         className="paper-container"
         style={{ marginTop: "1rem", marginBottom: "5rem" }}
       >
-        <a href={subfield_survey} target="_blank" style={{ fontSize: "24px" }}>
+        <a href={subfield_survey} target="_blank">
           Paper: A Survey on The State of the Art in Coreference Resolution
         </a>
       </div>

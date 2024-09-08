@@ -95,18 +95,20 @@
 
 @media (max-width: 768px) {
   .banner .slider {
-    top: 16%;
-    padding-bottom: 3rem;
-  }
-  .banner .slider {
     position: absolute;
     width: 250px;
     height: 300px;
-    top: 21%;
-    left: calc(50% - 150px);
+    top: 15%;
+    margin-bottom: 0;
+    left: calc(50% - 100px);
     transform-style: preserve-3d;
     transform: perspective(2000px);
     animation: autoRun 35s linear infinite;
+  }
+
+  .banner .content .header {
+    margin-bottom: 25%;
+
   }
   @keyframes autoRun {
     from {

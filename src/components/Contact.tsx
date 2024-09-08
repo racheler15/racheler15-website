@@ -34,7 +34,7 @@ function Contact() {
         .
         <br />
         <br />
-        My resume is available for download{" "}
+        My resume (typically outdated) is available for download{" "}
         <a href={Resume} target="_blank" className="contact-info">
           here
         </a>

@@ -38,13 +38,13 @@ function About() {
           </div>
         </div>
         <div className="text">
-          I am currently an EECS Master's student at UC Berkeley and
-          concurrently pursuing the Berkeley Certificate in Design Innovation. I
-          previously graduated from UC Berkeley with a B.A. in Computer Science
-          and a minor in Data Science. My current academic interests involves
-          incorporating Large Language Models (LLMs) capabilities with
-          human-computer interaction (HCI). Outside of my studies, I enjoy
-          recreating matcha and other tea beverages from my favorite shops.
+          I am currently an EECS Master's student at UC Berkeley pursuing the
+          Berkeley Certificate in Design Innovation. I previously graduated from
+          UC Berkeley with a B.A. in Computer Science and a minor in Data
+          Science. My current academic interests involves incorporating Large
+          Language Models (LLMs) capabilities with human-computer interaction
+          (HCI). Outside of my studies, I enjoy recreating matcha and other tea
+          beverages from my favorite shops.
         </div>
         <div className="button">
           <a href="mailto:raelin@berkeley.edu" className="button-contact">

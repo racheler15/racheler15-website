@@ -38,11 +38,18 @@
   .academics-container {
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 3rem;
   }
   .courses-container{
     display: flex;
+    padding-top: 0.5rem;
   }
   .slider-container{
     display:none;
   }
+  .classes-container {
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
 }
