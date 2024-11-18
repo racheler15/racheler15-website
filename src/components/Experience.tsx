@@ -21,7 +21,7 @@ function Experience() {
           <div className="multiple-experience">
             <div className="experience-description">
               <div className="place">UC Berkeley RISE Lab</div>
-              <div className="role">HCI Researcher</div>
+              <div className="role">HCI/LLM Researcher</div>
               <div className="date">May 2024 - Present</div>
               <div className="description">
                 Incoporating LLM expertise into an iterative dataset search
@@ -37,7 +37,7 @@ function Experience() {
               </div>
             </div>
             <div className="experience-description">
-              <div className="role-with-padding">ML Researcher</div>
+              <div className="role-with-padding">Machine Learning Intern</div>
               <div className="date">Sept 2023 - May 2024</div>
               <div className="description">
                 Assessed LLMs' ability to implicitly conduct feature selection
@@ -88,7 +88,7 @@ function Experience() {
           </div>
           <div className="experience-description">
             <div className="place">OmniVision Technologies</div>
-            <div className="role">Data Algorithm Intern</div>
+            <div className="role">Machine Learning Intern</div>
             <div className="date">May 2022 - Aug 2022</div>
             <div className="description">
               Generated data to mimic LED light behavior on Blender and
