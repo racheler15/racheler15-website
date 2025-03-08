@@ -1,5 +1,4 @@
 import "../styles/Contact.css";
-import Resume from "../../public/Rachel_Lin_Resume.pdf";
 
 function Contact() {
   return (
@@ -34,15 +33,15 @@ function Contact() {
         .
         <br />
         <br />
-        My resume (typically outdated) is available for download{" "}
+        {/* My resume (typically outdated) is available for download{" "}
         <a href={Resume} target="_blank" className="contact-info">
           here
-        </a>
-        .
+        </a> */}
+        {/* . */}
       </div>
       <span style = {{marginTop: "3rem",fontWeight:"bold"}}>This website is also a portfolio item I built using TypeScript & React. Thanks for taking the time to check it out!</span>
       <div className="footer">
-        <div className="sentence">Copyright © Rachel Lin 2024</div>
+        <div className="sentence">Copyright © Rachel Lin 2025</div>
       </div>
 
 

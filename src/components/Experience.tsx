@@ -3,6 +3,7 @@ import "../styles/Experience.css";
 import cognac from "/cognac.png";
 import epic from "/eecs.jpg";
 import omni from "/omnivision_logo.jpeg";
+import bt from "/berkeleytime_logo.jpeg";
 
 function Experience() {
   return (
@@ -14,6 +15,29 @@ function Experience() {
         </div>
       </div>
       <div className="places">
+        <div className="experience">
+          <div className="expimage-container">
+            <img src={bt} alt="bt-pic" className="experience-pic" />
+          </div>
+          <div className="experience-description">
+            <div className="place">Berkeleytime</div>
+            <div className="role">Full Stack Engineer</div>
+            <div className="date">Feb 2025 - Present</div>
+            <div className="description">
+              Developing Berkeleytime's first human-curated “Suggested Classes”
+              feature to enhance course discovery and staff dashboard.
+            </div>
+            <div className="skills-container">
+              <div className="skill">React</div>
+              <div className="skill">TypeScript</div>
+              <div className="skill">GraphQL</div>
+              <div className="skill">SCSS</div>
+              <div className="skill">Redux</div>
+            </div>
+          </div>
+        </div>
+
+        <div className="experience-separator"></div>
         <div className="experience">
           <div className="expimage-container">
             <img src={epic} alt="epic-data-pic" className="experience-pic" />
@@ -33,6 +57,7 @@ function Experience() {
                 <div className="skill">React</div>
                 <div className="skill">Large Language Models</div>
                 <div className="skill">SQL</div>
+                <div className="skill">Scikit-learn</div>
                 <div className="skill">JSON</div>
               </div>
             </div>
@@ -51,7 +76,7 @@ function Experience() {
               <div className="skill">Large Language Models</div>
               <div className="skill">JSON</div>
               <div className="skill">Microsoft Azure</div>
-              <div className="skill">Scikit learn</div>
+              <div className="skill">Scikit-learn</div>
               <div className="skill">Modal</div>
               <div className="skill">Hugging Face</div>
             </div>

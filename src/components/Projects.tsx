@@ -1,9 +1,12 @@
 import "../styles/Projects.css";
-import calq from "/calq.png";
+// import calq from "/calq.png";
 import mind from "/mind.png";
+import pdf2lec from "/frontend_slides.png";
 import uxab from "/uxab.png";
 import eximlabs from "/eximlabs.png";
-import subfield_survey from "/Rachel Lin Subfield Survey.pdf";
+import retreat from "/rachel_lin_epic_retreat_2024.pdf";
+import dataset from "/dataset.png";
+// import subfield_survey from "/Rachel Lin Subfield Survey.pdf";
 
 // https://www.youtube.com/watch?v=Kx8XlKRBZx8
 export default function Projects() {
@@ -15,14 +18,55 @@ export default function Projects() {
           <div className="underline"></div>
         </div>
       </div>
-      <div
+
+      {/* <div
         className="paper-container"
         style={{ marginTop: "1rem", marginBottom: "5rem" }}
       >
         <a href={subfield_survey} target="_blank">
           Paper: A Survey on The State of the Art in Coreference Resolution
         </a>
-      </div>
+      </div> */}
+      <a href="https://github.com/itsuitsuki/pdf2lec_llm" target="_blank">
+        <div
+          className="proj-container"
+          style={{ marginTop: "1rem", marginBottom: "5rem" }}
+        >
+          <div className="proj-img-container">
+            <img src={pdf2lec} alt="pdf2lec" className="proj-pic" />
+          </div>
+          <div className="proj-description">
+            <div className="proj-title">pdf2lec</div>
+            <div className="proj-text">
+              Led a team of 4 to develop a responsive web application that
+              converts uploaded PDFs into audio lectures with OpenAI’s
+              Text-to-Speech (TTS) model.{" "}
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href={retreat} target="_blank">
+        <div
+          className="proj-container"
+          style={{ marginTop: "1rem", marginBottom: "5rem" }}
+        >
+          <div className="proj-img-container">
+            <img src={dataset} alt="dataset" className="proj-pic" />
+          </div>
+          <div className="proj-description">
+            <div className="proj-title">
+              [WIP] Towards Iterative and LLM-Assisted Dataset Search Interface
+            </div>
+            <div className="proj-text">
+              Developing a flexible recommendation & search interface with
+              Autogen LLM agents using React and Flask for dataset retrieval
+              across a PostgreSQL database system without predefined metadata
+              attributes. <br /> <br />
+              Showcased at UC Berkeley's EPIC Advance Fall 2024 Retreat.{" "}
+            </div>
+          </div>
+        </div>
+      </a>
       <div style={{ paddingBottom: "5rem", fontSize: "20px" }}>
         Here are some highlights from my design portfolio:
       </div>
@@ -57,7 +101,7 @@ export default function Projects() {
           </div>
         </div>
       </a>
-      <a href="/CALQ.pdf" target="_blank">
+      {/* <a href="/CALQ.pdf" target="_blank">
         <div className="proj-container">
           <div className="proj-img-container">
             <img src={calq} alt="calq" className="proj-pic" />
@@ -71,7 +115,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-      </a>
+      </a> */}
       <a href="https://www.uxab.org/" target="_blank">
         <div className="proj-container">
           <div className="proj-img-container">
